@@ -266,3 +266,239 @@
     background-color: #919191;
     text-align: center;
 }
+/* 明星产品 */
+.star{
+    height: 760px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.star-title{
+    margin-bottom: 40px;
+}
+.star-title h4{
+    font-size: 12px;
+    color: #000000;
+    margin-top: 63px;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.star-title h2{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.star-title-tab{
+    width: 850px;
+    height: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: auto;
+}
+.star-title-tab a{
+    display: inline-block;
+    width: 92px;
+    height: 20px;
+    text-align: center;
+} 
+.star-title-tab a:first-child{
+    position: relative;
+    border-bottom: 2px solid #000;
+}
+.star-title-tab a:first-child:after{
+    content: "";
+    position: absolute;
+    left: 38px;
+    bottom: -18px;
+    width: 0;
+    height: 0;
+    border-top:  8px solid #000;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid transparent;
+
+}
+.star-content .cosmetics{
+    float: left;
+    width: 487px;
+    height: 470px;
+}
+.star-content-right{
+    float: left;
+    width: 773px;
+    height: 470px;
+    margin-left: 18px;
+}
+.star-content-right a{
+    float: left;
+    width: 256px;
+    height: 470px;
+    text-align: center;
+    /* margin: 0px auto; */
+}
+.star-content-right a img:first-child{
+    height: 256px;
+    margin-top: 10px;
+}
+.color-lump{
+    margin-bottom: 30px;
+}
+.star-content-right h2{
+    /* float: left; */
+    width: 220px;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 9px;
+}
+.star-content-right p{
+      margin-bottom: 8px;
+}
+.star-content-right span{
+    display: block;
+    color: #999999;
+    margin-bottom: 14px;
+}
+.star-content-right-footer{
+    width: 140px;
+    height: 25px;
+    margin-left: 46px;
+}
+.five-star{
+    float: left;
+    height: 25px;
+    width: 82px;
+    border-right: 1px solid #dadada;
+}
+.five-star i{
+    font-size: 12px;
+    color: #c9c9c9;
+    line-height: 25px;
+}
+.star-content-right del{
+    float: left;
+    font-weight: 900;
+    margin-left: 20px;
+    line-height: 25px;
+}
+/* 搜索发现 */
+.find{
+    height: 755px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.find-title{
+    padding-top: 63px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.find-title h4{
+    font-size: 12px;
+    color: #000000;
+    /* margin-top: 63px; */
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.find-title h2{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.find-content a{
+    float: left;
+    width: 305px;
+    height: 505px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-right: 20px;
+}
+.find-content a h2{
+    margin-left: 40px;
+    margin-top: 42px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 900;
+}
+.find-content a p{
+    width: 222px;
+    margin-left: 40px;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 26px;
+    margin-bottom: 66px;
+    line-height: 20px;
+}
+.find-content a del{
+    font-size: 12px;
+    color: #000000;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+.find-content a:last-child{
+    margin-right: 0px;
+}
+/* 私人订制 */
+.make{
+    height: 603px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.make-title{
+    padding-top: 63px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.make-title h2{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.make-title h4{
+    font-size: 12px;
+    color: #000000;
+    /* margin-top: 63px; */
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.make-content{
+    height: 387px;
+    text-align: left;
+}
+.make-content-left{
+    float: left;
+    width: 630px;
+    background-color: #ffffff;
+}
+.make-content-left a{
+    float: left;
+}
+.make-content-left-text{
+    float: left;
+    width: 305px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+.make-content-left-text h2{
+    margin-top: 104px;
+    font-size: 15px;
+    font-weight: 900;
+    color: #000000;
+    margin-bottom: 8px;
+
+}
+.make-content-left-text h3{
+    font-size: 20px;
+    color: #000000; 
+    margin-bottom: 26px; 
+
+}
+.make-content-left-text p{
+   line-height: 20px;
+   color: #000000;
+   margin-bottom: 65px;
+}
+.make-content-left-text a{
+    text-decoration: underline;
+}
+.make-content .make-content-left:first-child{
+    margin-right: 20px;
+}
