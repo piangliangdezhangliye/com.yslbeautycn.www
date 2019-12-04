@@ -131,7 +131,7 @@
 }
 /* 鼠标移入效果 */
 .searchnav .mylips{
-    display: none;
+    display:none;
     position: absolute;
     bottom: -510px;
     left: 0px;
@@ -139,6 +139,7 @@
     height: 507px;
     background-color: #ffffff;
     border-top: 1px solid #000000;
+    z-index: 2;
 }
 .cai:hover .mylips{
     display: block;
@@ -226,6 +227,9 @@
     /* padding-bottom: 106; */
     box-sizing: border-box;
     background-color: #f2f2f2;
+}
+.carousel img{
+    width: 1900px;
 }
 .carousel .left{
     position: absolute;
@@ -436,6 +440,10 @@
 .find-content a:last-child{
     margin-right: 0px;
 }
+/* 皇后精华大图 */
+.ad img{
+    width: 1900px;
+}
 /* 私人订制 */
 .make{
     height: 603px;
@@ -501,4 +509,245 @@
 }
 .make-content .make-content-left:first-child{
     margin-right: 20px;
+}
+/* 寻找你的妆彩灵感 */
+.ins{
+   height: 795px;
+   padding-top: 78px;
+   box-sizing: border-box; 
+   text-align: center;
+   background-color: #f2f2f2;
+}
+.ins-title{
+    height: 87px;
+}
+.ins-title h4{
+    font-size: 12px;
+    color: #000000;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.ins-title h2{
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+.ins-content{
+    height: 630px;
+}
+.ins-content-one{
+    float: left;
+    width: 413px;
+    height: 630px;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+.ins-content-one:last-child{
+    margin-right: 0px;
+}
+.ins-content-one-text{
+    height: 277px;
+    padding: 42px 50px;
+}
+.ins-content-one-text .title-one{
+    display: block;
+    margin-bottom: 20px;
+}
+.ins-content-one-text .title-two{
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+.ins-content-one-text p{
+    font-size: 14px;
+    color: #a7a7a7;
+    margin-bottom: 34px;
+}
+.ins-content-one-text a:hover{
+    text-decoration: underline;
+}
+/* 视频中心 */
+.video{
+    height: 734px;
+    background-color: #f2f2f2;
+    padding-top: 78px;
+    box-sizing: border-box;
+}
+.video-title h4{
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+    font-weight: 800;
+} 
+.video-title h2{
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 34px;
+}
+.video-content{
+    height: 469px;
+    background-color: #ffffff;
+}
+.video-content img{
+    float: left;
+}
+.video-content-text{
+    float: left;
+    width: 500px;
+    padding: 70px 58px 0px 58px;
+    box-sizing: border-box;
+}
+.video-content-text h2{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.video-content-text p{
+    color: #bfbfbf;
+    margin-bottom: 58px;
+}
+.video-content-text a{
+    text-align: left;
+    text-decoration: underline;
+}
+.video-content-text h3{
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 53px;
+    margin-bottom: 21px;
+}
+.video-content-text .click{
+    display: block;
+    color: #bfbfbf;
+    margin-top: 26px;
+    text-decoration: none;
+}
+/* 承诺 */
+.promise{
+    height: 191px;
+    background-color: #000000;
+    text-align: center;
+    overflow: hidden;
+}
+.promise-one{
+    float: left;
+    width: 320px;
+    height: 110px;
+    border-right: 1px solid #575757;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.promise-one i{
+    font-size: 36px;
+}
+.promise-one p{
+    margin-top: 16px;
+    line-height: 17px;
+}
+/* 服务 */
+.server{
+    height: 287px;
+    background-color: #ffffff;
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+.server-other{
+    float: left;
+    padding-left: 60px;
+}
+.server-other dl{
+    float: left;
+    margin-right: 160px;
+}
+.server-other dl dt{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.server-other dl dd{
+    font-size: 14px;
+    line-height: 31px;
+}
+.server-other dl dd a{
+    color: #999999;
+}
+.server-art{
+    float: left;
+    width: 226px;
+}
+.server-art p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.server-art-input{
+    width: 226px;
+    height: 38px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 38px;
+}
+.server-art-input input{
+    float: left;
+    width: 186px;
+    height: 36px;
+    border: none;
+}
+.server-art-input button{
+    float: left;
+    width: 38px;
+    height: 38px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+}
+.server-art i{
+    display: inline-block;
+    font-size: 24px;
+    color: #000;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 38px;
+}
+/* 底部logo */
+.logo{
+    height: 172px;
+    padding: 46px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.logo img{
+    height: 80px;
+}
+/* 底部 */
+.footer{
+    height: 145px;
+    padding-top: 40px;
+    background-color: #f2f2f2;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.footer-top{
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 17px;
+}
+.footer-top img{
+    margin-left: 20px;
+}
+.footer-top a:hover{
+    text-decoration: underline;
+}
+.footer-bottom a{
+    margin-right: 40px;
+    text-decoration: underline;
 }
