@@ -81,7 +81,7 @@
 /* 搜索导航 */
 .searchnav{
     position: relative;
-    height: 50px;
+    height: 54px;
 }
 .searchnav-tab{
     float: left;
@@ -133,15 +133,18 @@
 .searchnav .mylips{
     display:none;
     position: absolute;
-    bottom: -510px;
-    left: 0px;
+    bottom: -509px;
+    left: -310px;
     width: 1920px;
     height: 507px;
     background-color: #ffffff;
     border-top: 1px solid #000000;
     z-index: 2;
 }
-.cai:hover .mylips{
+.cai:hover~.mylips{
+    display: block;
+}
+.mylips:hover{
     display: block;
 }
 .cai:hover{

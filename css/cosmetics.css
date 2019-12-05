@@ -1,0 +1,47 @@
+.shop{
+    height: 600px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.shop-left-small{
+    float: left;
+}
+.shop-left-small a{
+    display: block;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+.shop-left-small img{
+    display: block;
+    width: 55px;
+    margin:  12% auto;
+    /* height:37px */
+}
+.shop-left>img{
+    height: 500px;
+    margin-left: 100px;
+}
+/* 色号 */
+.shop-right{
+    float: right;
+}
+.shop-right-color{
+    float: right;
+}
+.color-one{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #d9d9d9;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.color-one span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #7b3144;
+}
