@@ -5,6 +5,13 @@
     box-sizing: border-box;
     margin-top: 20px;
 }
+.shop-left{
+    float: left;
+}
+.shop-right{
+    float: left;
+    width: 425px;
+}
 .shop-left-small{
     float: left;
 }
@@ -22,26 +29,247 @@
     /* height:37px */
 }
 .shop-left>img{
+    float: left;
     height: 500px;
     margin-left: 100px;
+    margin-right: 150px;
 }
-/* 色号 */
-.shop-right{
-    float: right;
+.shop-right-title h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 12px;
 }
-.shop-right-color{
-    float: right;
+.shop-right-title h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 14px;
 }
-.color-one{
-    width: 30px;
-    height: 30px;
-    border: 1px solid #d9d9d9;
-    padding: 4px;
+.shop-right-title i{
+    display: inline-block;
+    font-size: 12px;
+    color: #c9c9c9;
+    margin-bottom: 30px;
+}
+.shop-right-title a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: underline;
+}
+.shop-right-title span{
+    display: block;
+    color: #999999;
+    margin-bottom: 8px;
+}
+.shop-right-title strong{
+    font-size: 12px;
+    color: #ff0000;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+.shop-right-title p{
+    font-size: 12px;
+    color: #000000;
+    line-height: 16px;
+}
+.shop-right-title  a:last-child{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 26px;
+}
+.shop-right-color input{
+    display: block;
+    width: 424px;
+    height: 45px;
+    border: 1px solid #dadada;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.shop-right-color .single{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 0%;
+    margin: 0px;
+}
+.shop-right-color p{
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    line-height: 21px;
+}
+.shop-right-color i{
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    line-height: 21px;
+}
+/* 产品详情 */
+.details{
+    height: 350px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #f7f7f7;
+}
+.details-title{
+    height: 92px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 66px;
+}
+.details-title h3{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 92px;
+}
+.details-content{
+    height: 257px;
+    padding-top: 32px;
+    padding-left: 66px;
     box-sizing: border-box;
 }
-.color-one span{
-    width: 20px;
-    height: 20px;
+.details-content p{
+    font-size: 14px;
+    line-height: 16px;
+}
+.details-content strong{
+    font-size: 14px;
+    color: #ff0000;
+    font-weight: normal;
+}
+.ad{
+    height: 4856px;
+}
+.rec{
+    height: 1472px;
+}
+.rec-title{
+    height: 156px;
+}
+.rec-title h2{
     display: block;
-    background-color: #7b3144;
+    font-size: 30px;
+    line-height: 156px;
+    font-weight: normal;
+    text-align: center;
+}
+.rec-content{
+    height: 1316px;
+}
+.rec-content-one,
+.rec-content-two{
+    float: left;
+    width: 305px;
+    height: 618px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 20px;
+}
+.rec-content-one{
+    position: relative;
+}
+.rec-content-one img{
+    width: 260px;
+    margin-bottom: 50px;
+}
+.rec-content-one a{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.rec-content-one a:hover{
+    text-decoration: underline;
+}
+.five-star{
+    display: inline-block;
+    width: 82px;
+    height: 23px;
+    border-right: 1px solid #dadada;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.rec-content-one .five-star i{
+    font-size: 12px;
+    color: #c9c9c9;
+    line-height: 23px;
+}
+.rec-content-one .purchase{
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.rec-content-one .purchase i{
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+.rec-content-one .purchase p{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 45px;
+}
+.rec-content-one .purchase:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 1s;
+}
+.rec-content-one:nth-child(4n){
+    margin-right: 0px;
+}
+/* 鼠标移入效果 */
+.rec-content-one .appear{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 346px;
+    padding-bottom: 90px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.rec-content-one img:hover+ .appear{
+    display: block;
+}
+
+.rec-content-one .appear:hover{
+    display: block;
+}
+
+
+.appear .pur,
+.appear .text{
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    line-height: 45px;
+}
+.appear .pur{
+    margin-bottom: 20px;
+}
+.appear .pur i{
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+.appear .pur p,
+.appear .text p{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 45px;
+}
+.appear .text p a{
+    color: #ffffff;
 }
