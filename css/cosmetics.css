@@ -180,7 +180,7 @@
     font-size: 14px;
     margin-bottom: 16px;
 }
-.rec-content-one a:hover{
+.rec-content-one>a:hover{
     text-decoration: underline;
 }
 .five-star{
@@ -235,7 +235,7 @@
     /* padding-bottom: 90px; */
     box-sizing: border-box;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .rec-content-one img:hover+ .appear{
     display: block;
@@ -257,6 +257,20 @@
     box-sizing: border-box;
     line-height: 45px;
 }
+.appear .text{
+    background-color: #ffffff;
+    color: #000000;
+}
+.appear .pur:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.5s;
+}
+.appear .text:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: all 0.5s;
+}
 .appear .pur{
     margin-bottom: 20px;
 }
@@ -273,4 +287,59 @@
 }
 .appear .text p a{
     color: #ffffff;
+}
+.rec-content-two{
+    padding-top: 90px;
+}
+.rec-content-two h2{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 52px;
+}
+.rec-content-two p{
+    font-size: 14px;
+}
+.rec-content-two-plus{
+    position: relative;
+    padding: 16px 0px;
+}
+.rec-content-two-plus:after{
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 38px;
+    width: 190px;
+    height: 1px;
+    background-color: #000000;
+}
+.rec-content-two-plus span{
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    background-color: #ffffff;
+}
+.rec-content-two .purchase p{
+    display: inline-block;
+}
+.rec-content-two .purchase{
+    width: 230px;
+    height: 45px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 152px;
+    background-color: #000000;
+    line-height: 45px;
+}
+.rec-content-two .purchase i{
+    margin-left: 22px;
+    margin-right: 10px;
+}
+.rec-content-two .purchase:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 0.5s;
 }
