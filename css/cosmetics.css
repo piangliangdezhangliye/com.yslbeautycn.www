@@ -239,10 +239,12 @@
 }
 .rec-content-one img:hover+ .appear{
     display: block;
+    transition: all 5s;
 }
 
 .rec-content-one .appear:hover{
     display: block;
+    transition: all 5s;
 }
 
 
