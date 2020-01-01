@@ -1,0 +1,206 @@
+/* 唇部导航 */
+.lipnav{
+    line-height: 100px;
+}
+.lipnav .container{
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.lipnav h3{
+    float: left;
+    font-size: 30px;
+    font-weight: normal;
+    margin-right:170px;
+}
+.lipnav ul{
+    float: left;
+}
+.lipnav ul li{
+    float: left;
+    font-size: 14px;
+    color: #999999;
+}
+.lipnav ul li a{
+    font-size: 14px;
+    color: #999999;
+}
+.lipnav  strong{
+    float: left;
+    margin-left: 590px;
+}
+.lipnav select{
+    width: 210px;
+    height: 40px;
+    float: right;
+    margin-top: 30px;
+    line-height: 20px;
+}
+/* 唇部左边 */
+.lip .container{
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+.lip-left{
+    float: left;
+    width: 190px;
+    border-top: 1px solid #efeeee;
+    
+}
+.lip-left ul{
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.lip-left a{
+    color: #9b9b9b;
+}
+.lip-left h4{
+    font-size: 16px;
+    font-weight: normal;
+    /* margin-bottom: 12px; */
+}
+.lip-left .option{
+    display: block;
+    line-height: 40px;
+    border-bottom: 1px solid #999999;
+}
+.lip-left-price{
+    margin-top: 20px;
+}
+.lip-left-price p{
+    float: left;
+}
+/* 唇部右边 */
+.lip-right{
+    width: 1070px;
+    float: left;
+    padding-top: 20px;
+    border-top: 1px solid #e2e2e2;
+}
+.star-content .cosmetics{
+    float: left;
+    width: 487px;
+    height: 470px;
+}
+.star-content-right{
+    height: 470px;
+}
+.star-content-right-one{
+    position: relative;
+}
+.star-content-right .star-content-right-one{
+    float: left;
+    width: 247px;
+    height: 470px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    margin-left: 18px;
+}
+.star-content-right .star-content-right-one img:first-child{
+    height: 230px;
+    margin-top: 10px;
+}
+.color-lump{
+    margin-bottom: 30px;
+}
+.star-content-right .one{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-all;
+    overflow: hidden;
+}
+.star-content-right .two{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.star-content-right span{
+    display: block;
+    color: #999999;
+    margin-bottom: 14px;
+}
+.star-content-right-footer{
+    width: 140px;
+    height: 25px;
+    margin-left: 46px;
+}
+.five-star{
+    float: left;
+    height: 25px;
+    width: 82px;
+    border-right: 1px solid #dadada;
+}
+.five-star i{
+    font-size: 12px;
+    color: #c9c9c9;
+    line-height: 25px;
+}
+.star-content-right del{
+    float: left;
+    font-weight: 900;
+    margin-left: 20px;
+    line-height: 25px;
+}
+/* 鼠标移入 */
+.star-content-right-one .appear{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    padding-top: 200px;
+    /* padding-bottom: 90px; */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.star-content-right-one img:hover + .appear{
+    display: block;
+}
+.star-content-right-one .appear:hover{
+    display: block;
+}
+.appear .pur,
+.appear .text{
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    line-height: 45px;
+}
+.appear .text{
+    background-color: #ffffff;
+    color: #000000;
+}
+.appear .pur{
+    margin-bottom: 20px;
+}
+.appear .pur i{
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+.appear .pur p,
+.appear .text p{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 45px;
+}
+.appear .text p a{
+    color: #ffffff;
+}
+.pur:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.text:hover{
+    background-color: #000;
+    color: #fff;
+}

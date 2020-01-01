@@ -1,7 +1,7 @@
 /* 版心 */
 .container{
     position: relative;
-    width: 1284px;
+    width: 1320px;
     margin: 0 auto;
 }
 /* 清除浮动 */
@@ -110,6 +110,7 @@
 .searchnav-tab a{
   float: left;
   color: #000000;
+  font-size: 14px;
   margin-right: 55px;
   line-height: 50px;
   text-align: center;
