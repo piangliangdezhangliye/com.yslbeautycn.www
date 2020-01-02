@@ -1,0 +1,415 @@
+/* 商品 */
+.shop{
+    height: 600px;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+/* 商品左边小窗口 */
+.shop-left{
+    float: left;
+}
+.shop-right{
+    float: left;
+    width: 425px;
+}
+.shop-left-small{
+    float: left;
+}
+.shop-left-small a{
+    display: block;
+    width: 74px;
+    height: 74px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
+}
+.shop-left-small img{
+    display: block;
+    width: 55px;
+    margin:  12% auto;
+    /* height:37px */
+}
+/* 中间图片 */
+.shop-left>img{
+    float: left;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+/* 右边商品信息 */
+.shop-right-title h4{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 12px;
+}
+.shop-right-title h2{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 14px;
+}
+.shop-right-title i{
+    display: inline-block;
+    font-size: 12px;
+    color: #c9c9c9;
+    margin-bottom: 30px;
+}
+.shop-right-title a {
+    font-size: 12px;
+    color: #000000;
+    text-decoration: underline;
+}
+.shop-right-title ul li{
+    font-size: 14px;
+    display: block;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+.shop-right-title  a:last-child{
+    float: right;
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 26px;
+}
+/* 色号 */
+.shop-right-color input{
+    display: block;
+    width: 424px;
+    height: 45px;
+    border: 1px solid #dadada;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 24px;
+    margin-bottom: 30px;
+}
+.shop-right-color .single{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 0%;
+    margin: 0px;
+}
+.shop-right-color p{
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    line-height: 21px;
+}
+.shop-right-color i{
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    line-height: 21px;
+}
+.shop-right-color strong{
+    display: block;
+    margin-top: 20px;
+    color: #bc0b28;
+    font-weight: normal;
+}
+/* 产品详情 */
+.details{
+    height: 350px;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #f7f7f7;
+}
+.details-title{
+    height: 92px;
+    border-bottom: 1px solid #d9d9d9;
+    padding-left: 66px;
+}
+.details-title h3{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 92px;
+}
+.details-content{
+    height: 257px;
+    padding-top: 32px;
+    padding-left: 66px;
+    box-sizing: border-box;
+}
+.details-content p{
+    font-size: 14px;
+    line-height: 16px;
+}
+.details-content strong{
+    font-size: 14px;
+    color: #ff0000;
+    font-weight: normal;
+}
+/* 产品广告 */
+.ad{
+    text-align: center;
+    /* height: 4856px; */
+}
+
+/* YSL官方评论 */
+.discuss{
+    background-color: #f7f7f7;
+    padding-bottom: 60px;
+}
+.discuss .container{
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.discuss h2{
+    font-size: 20px;
+    line-height: 156px;
+    text-align: center;
+    font-weight: normal;
+}
+.discuss-top{
+    padding: 0px 60px;
+    line-height: 135px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.discuss-top p{
+    font-size: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.discuss-top span{
+    float: left;
+    margin-right: 10px;
+}
+.discuss-top .discuss-five-star{
+    float: left;
+}
+.discuss-top .discuss-five-star i{
+    font-size: 12px;
+    color: #c9c9c9;
+}
+.discuss-top a{
+    float: right;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.discuss h5{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 75px;
+    background-color: #fff;
+    padding: 0px 60px;
+}
+/* 妆容推荐 */
+.rec{
+    margin-bottom: 80px;
+}
+.rec-title{
+    height: 156px;
+}
+.rec-title h2{
+    display: block;
+    font-size: 30px;
+    line-height: 156px;
+    font-weight: normal;
+    text-align: center;
+}
+.rec-content-one,
+.rec-content-two{
+    float: left;
+    width: 305px;
+    height: 480px;
+    padding: 20px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 20px;
+}
+.rec-content-one{
+    position: relative;
+}
+.rec-content-one img{
+    width: 260px;
+    margin-bottom: 50px;
+}
+.rec-content-one a{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.rec-content-one .one{
+    /* width: 200px; */
+    text-overflow:hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-all;
+    overflow: hidden;
+}
+.rec-content-one>a:hover{
+    text-decoration: underline;
+}
+.five-star{
+    display: inline-block;
+    width: 82px;
+    height: 23px;
+    color: #000000;
+    border-right: 1px solid #dadada;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.rec-content-one .five-star i{
+    font-size: 12px;
+    color: #c9c9c9;
+    line-height: 23px;
+}
+.rec-content-one .purchase{
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+.rec-content-one .purchase i{
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+.rec-content-one .purchase p{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 45px;
+}
+.rec-content-one .purchase:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 1s;
+}
+.rec-content-one:nth-child(4n){
+    margin-right: 0px;
+}
+/* 鼠标移入效果 */
+.rec-content-one .appear{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    padding-top: 200px;
+    /* padding-bottom: 90px; */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.rec-content-one img:hover+ .appear{
+    display: block;
+    transition: all 5s;
+}
+
+.rec-content-one .appear:hover{
+    display: block;
+    transition: all 5s;
+}
+
+
+.appear .pur,
+.appear .text{
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    line-height: 45px;
+}
+.appear .text{
+    background-color: #ffffff;
+    color: #000000;
+}
+.appear .pur:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: all 0.5s;
+}
+.appear .text:hover{
+    color: #ffffff;
+    background-color: #000000;
+    transition: all 0.5s;
+}
+.appear .pur{
+    margin-bottom: 20px;
+}
+.appear .pur i{
+    font-size: 20px;
+    line-height: 45px;
+    vertical-align: middle;
+}
+.appear .pur p,
+.appear .text p{
+    font-size: 14px;
+    display: inline-block;
+    line-height: 45px;
+}
+.appear .text p a{
+    color: #ffffff;
+}
+.rec-content-two{
+    padding-top: 90px;
+}
+.rec-content-two h2{
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 52px;
+}
+.rec-content-two p{
+    font-size: 14px;
+}
+.rec-content-two-plus{
+    position: relative;
+    padding: 16px 0px;
+}
+.rec-content-two-plus:after{
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 38px;
+    width: 190px;
+    height: 1px;
+    background-color: #000000;
+}
+.rec-content-two-plus span{
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    background-color: #ffffff;
+}
+.rec-content-two .purchase p{
+    display: inline-block;
+}
+.rec-content-two .purchase{
+    width: 230px;
+    height: 45px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 152px;
+    background-color: #000000;
+    line-height: 45px;
+}
+.rec-content-two .purchase i{
+    margin-left: 22px;
+    margin-right: 10px;
+}
+.rec-content-two .purchase:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
