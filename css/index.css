@@ -141,6 +141,9 @@
     border-top: 1px solid #000000;
     z-index: 2;
 }
+.mylips .mylips-text dt a{
+    margin-left: 0;
+}
 .cai:hover~.mylips{
     display: block;
 }
